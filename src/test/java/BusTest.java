@@ -10,13 +10,18 @@ public class BusTest {
     @Before
     public void before(){
 
-        bus = new Bus("Ocean Terminal");
+        bus = new Bus("Ocean Terminal", 40);
 
     }
 
     @Test
     public void hasADestination(){
         assertEquals("Ocean Terminal", bus.getDestination());
+    }
+
+    @Test
+    public void hasCapacity(){
+        assertEquals(40, bus.getCapacity());
     }
 
 }
