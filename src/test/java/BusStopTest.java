@@ -27,4 +27,10 @@ public class BusStopTest {
         assertEquals(0, busStop.queueLength());
     }
 
+    @Test
+    public void canAddAPersonToQueue(){
+        busStop.addPerson(person);
+        assertEquals(1, busStop.queueLength());
+    }
+
 }
