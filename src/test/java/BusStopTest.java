@@ -22,4 +22,9 @@ public class BusStopTest {
         assertEquals("Princes Street", busStop.getName());
     }
 
+    @Test
+    public void hasQueueStartsEmpty(){
+        assertEquals(0, busStop.queueLength());
+    }
+
 }
