@@ -6,11 +6,13 @@ import static org.junit.Assert.assertEquals;
 public class BusTest {
 
     Bus bus;
+    Person person;
 
     @Before
     public void before(){
 
         bus = new Bus("Ocean Terminal", 40);
+        person = new Person();
 
     }
 
@@ -27,6 +29,12 @@ public class BusTest {
     @Test
     public void canTakePassengersStartsEmpty(){
         assertEquals(0, bus.passengerCount());
+    }
+
+    @Test
+    public void canAddPassengers(){
+        bus.addPassenger(person);
+        assertEquals(1, bus.passengerCount());
     }
 
 }
