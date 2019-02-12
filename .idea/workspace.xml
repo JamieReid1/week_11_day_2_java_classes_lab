@@ -38,12 +38,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1835" />
+          <entry key="java" value="1976" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1835" />
+          <entry key="JAVA" value="1976" />
         </counts>
       </usages-collector>
     </session>
@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BusStopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="479">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -62,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BusStop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="345">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -465,7 +465,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549980425964" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549980638239" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -498,6 +498,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BusStopTest.canRemoveAPersonFromQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Classes_lab_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusStopTest" />
+      <option name="METHOD_NAME" value="canRemoveAPersonFromQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BusStopTest.hasAName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Classes_lab_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -518,28 +528,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Classes_lab_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BusTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.BusTest" />
       <item itemvalue="JUnit.BusStopTest.hasAName" />
       <item itemvalue="JUnit.BusStopTest" />
       <item itemvalue="JUnit.BusStopTest.hasQueueStartsEmpty" />
       <item itemvalue="JUnit.BusStopTest.canAddAPersonToQueue" />
+      <item itemvalue="JUnit.BusStopTest.canRemoveAPersonFromQueue" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BusStopTest" />
+        <item itemvalue="JUnit.BusStopTest.canRemoveAPersonFromQueue" />
         <item itemvalue="JUnit.BusStopTest.canAddAPersonToQueue" />
         <item itemvalue="JUnit.BusStopTest.hasQueueStartsEmpty" />
         <item itemvalue="JUnit.BusStopTest.hasAName" />
-        <item itemvalue="JUnit.BusTest" />
       </list>
     </recent_temporary>
   </component>
@@ -557,9 +559,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BusTest_hasCapacity - 2019.02.12 at 13h 11m 18s.xml">
-      <configuration name="BusTest.hasCapacity" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BusTest_canTakePassengersStartsEmpty - 2019.02.12 at 13h 18m 03s.xml">
       <configuration name="BusTest.canTakePassengersStartsEmpty" configurationId="JUnit" />
     </history-entry>
@@ -585,6 +584,9 @@
       <configuration name="BusStopTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BusStopTest - 2019.02.12 at 14h 05m 08s.xml">
+      <configuration name="BusStopTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusStopTest - 2019.02.12 at 14h 08m 25s.xml">
       <configuration name="BusStopTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -656,15 +658,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BusStop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BusStopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="479">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
